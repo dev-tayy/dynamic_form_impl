@@ -80,7 +80,10 @@ class DynamicFormViewModel(application: Application) : AndroidViewModel(applicat
             uses = _formData.value["BUILDING USES"]?.trim()
         )
         buildingViewModel.insertBuildingMapping(buildingMapping);
+        buildingViewModel.getAllMappings();
         Toast.makeText(context, "Form submitted!", Toast.LENGTH_SHORT).show()
+        _formData.value = mutableMapOf()
+        _formErrors.value = mutableMapOf()
     }
 }
 
