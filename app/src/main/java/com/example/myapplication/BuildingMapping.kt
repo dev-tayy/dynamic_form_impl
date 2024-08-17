@@ -7,11 +7,11 @@ import androidx.room.ColumnInfo
 @Entity(tableName = "building_mapping")
 data class BuildingMapping(
     @PrimaryKey(autoGenerate = true) val id: Long = 0,
-    @ColumnInfo(name = "name_bld") val name: String,
-    @ColumnInfo(name = "address") val address: String?,
-    @ColumnInfo(name = "owner") val owner: String?,
-    @ColumnInfo(name = "bld_stat") val status: String?,
-    @ColumnInfo(name = "nam_own") val ownerName: String?,
-    @ColumnInfo(name = "num_own") val ownerPhone: String?,
-    @ColumnInfo(name = "bld_use") val uses: String?
+    @ColumnInfo(name = "NAME_BLD") val name: String,
+    @ColumnInfo(name = "ADDRESS") val address: String?,
+    @ColumnInfo(name = "OWNER") val owner: String?,
+    @ColumnInfo(name = "BLD_STAT") val status: String?,
+    @ColumnInfo(name = "NAM_OWN") val ownerName: String?,
+    @ColumnInfo(name = "NUM_OWN") val ownerPhone: String?,
+    @ColumnInfo(name = "BLD_USER") val uses: String?
 )
