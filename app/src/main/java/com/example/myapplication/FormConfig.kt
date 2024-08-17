@@ -19,8 +19,8 @@ data class Field(
     @SerializedName("column_type") val columnType: String,
     @SerializedName("column_name") val columnName: String,
     @SerializedName("required") val required: Boolean,
-    @SerializedName("min_length") val minLength: Int,
-    @SerializedName("max_length") val maxLength: Int,
+    @SerializedName("min_length") val minLength: Int? = null,
+    @SerializedName("max_length") val maxLength: Int? = null,
     @SerializedName("showOnList") val showOnList: Boolean? = null,
     @SerializedName("values") val values: List<String>? = null
 )
