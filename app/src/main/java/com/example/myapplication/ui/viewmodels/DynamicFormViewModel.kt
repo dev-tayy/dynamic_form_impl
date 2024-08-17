@@ -2,10 +2,11 @@ package com.example.myapplication
 
 import android.app.Application
 import android.content.Context
-import android.util.Log
 import android.widget.Toast
 import androidx.lifecycle.*
 import androidx.lifecycle.viewmodel.CreationExtras
+import com.example.myapplication.data.model.BuildingMapping
+import com.example.myapplication.data.model.FormConfig
 import com.google.gson.Gson
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

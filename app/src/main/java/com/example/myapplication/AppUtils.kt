@@ -1,7 +1,6 @@
 package com.example.myapplication
 
-import android.util.Log
-import com.google.gson.Gson
+import com.example.myapplication.data.model.BuildingMapping
 
 object AppUtils {
 

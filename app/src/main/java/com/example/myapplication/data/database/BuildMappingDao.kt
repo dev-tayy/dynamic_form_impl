@@ -3,6 +3,7 @@ package com.example.myapplication
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
+import com.example.myapplication.data.model.BuildingMapping
 
 @Dao
 interface BuildingMappingDao {
