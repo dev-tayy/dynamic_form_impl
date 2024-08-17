@@ -1,0 +1,92 @@
+{
+  "forms": {
+    "BUILDING_MAPPING": {
+      "pages": {
+        "BUILDING_MAPPING": {
+          "fields": { 
+                "NAME OF BUILDING": {
+                    "ui_type": "text_field",
+                    "column_type": "TEXT",
+                    "column_name": "NAME_BLD",
+                    "required": true,
+                    "min_length": 0,
+                    "max_length": 500,
+                        "showOnList":true
+                },
+                "ADDRESSS OF BUILDING": {
+                    "ui_type": "text_field",
+                    "column_type": "TEXT",
+                    "column_name": "ADDRESS",
+                    "required": false,
+                    "min_length": 0,
+                    "max_length": 500
+                },
+                "BUILDING OWNERSHIP": {
+                    "ui_type": "drop_down",
+                    "column_type": "TEXT",
+                    "column_name": "OWNER",
+                    "required": false,
+                    "values": [
+                    "SELECT OPTION",
+                    "GOVERNMENT",
+                    "GROUP",
+                    "PRIVATE INDIVIDUAL"
+
+                    ]
+                },
+                "BUILDING STATUS": {
+                    "ui_type": "drop_down",
+                    "column_type": "TEXT",
+                    "column_name": "BLD_STAT",
+                    "required": false,
+                    "values": [
+                    "SELECT OPTION",
+                    "COMMERCIAL BUILDING",
+                    "INSTITUTIONAL/PUBLIC SERVICE",
+                    "RESIDENTIAL BUILDING",
+                    "RELIGIOUS BUILDING"
+
+                    ]
+                },
+                "OWNER'S FULLNAME": {
+                    "ui_type": "text_field",
+                    "column_type": "TEXT",
+                    "column_name": "NAM_OWN",
+                    "required": false,
+                    "min_length": 0,
+                    "max_length": 500
+                },
+                "OWNER'S PHONE NUMBER": {
+                    "ui_type": "text_field",
+                    "column_type": "TEXT",
+                    "column_name": "NUM_OWN",
+                    "required": false,
+                    "min_length": 11,
+                    "max_length": 11
+                },
+                "BUILDING USES": {
+                    "ui_type": "drop_down",
+                    "column_type": "TEXT",
+                    "column_name": "BLD_USE",
+                    "required": false,
+                    "values": [
+                    "SELECT OPTION",
+                    "PRIVATE RESIDENCE",
+                    "KITCHEN",
+                    "BATHROOM/TOILET",
+                    "GATE HOUSE",
+                    "GENERATOR HOUSE",
+                    "RESTAURANT/EATERY",
+                    "SHOP/PLAZA",
+                    "OFFICE",
+                    "CHURCH",
+                    "MOSQUE"
+                    ]
+              }      
+             }
+          }
+        }
+      }
+    }
+}
+
